@@ -34,6 +34,9 @@
                                 <buttonConfiguration key="configuration" style="plain" title="SHOW TEXT" cornerStyle="large" buttonSize="large">
                                     <color key="baseForegroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="startButtonPassed" destination="BYZ-38-t0r" eventType="touchUpInside" id="0BQ-NQ-rip"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -47,6 +50,10 @@
                             <constraint firstItem="ola-Wg-j98" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="120" id="orF-9R-3eG"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="helloWorldLabel" destination="CKY-gZ-2cG" id="3fm-xk-bNN"/>
+                        <outlet property="startButton" destination="ola-Wg-j98" id="aDC-0E-EvX"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
